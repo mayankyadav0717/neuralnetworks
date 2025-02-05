@@ -1,0 +1,16 @@
+Here's a simple README file for your repository:
+
+---
+
+# Neural Networks Learning Journey
+
+This repository contains Jupyter notebooks and personal handwritten notes that I created while learning from [Andrej Karpathy's "Zero to Hero" playlist](https://www.youtube.com/playlist?list=PLpVmAiHaw0HOuHfh0eYSaVbcB6RCsMS9X).
+
+## Contents
+
+- [gpt-dev.ipynb](https://github.com/mayankyadav0717/neuralnetworks/blob/main/gpt-dev.ipynb): otebook focusing on GPT development.- [gpttokenizer.ipynb](https://github.com/mayankyadav0717/neuralnetworks/blob/main/gpttokenizer.ipynb): xploration of GPT tokenization processes.- [makemore.ipynb](https://github.com/mayankyadav0717/neuralnetworks/blob/main/makemore.ipynb): nitial implementation of the "makemore" project.- [makemore2.ipynb](https://github.com/mayankyadav0717/neuralnetworks/blob/main/makemore2.ipynb): ontinuation and improvements on the "makemore" project.- [makemore3.ipynb](https://github.com/mayankyadav0717/neuralnetworks/blob/main/makemore3.ipynb): urther developments in the "makemore" series.- [makemore4.ipynb](https://github.com/mayankyadav0717/neuralnetworks/blob/main/makemore4.ipynb): dvanced features added to the "makemore" project.- [makemore5.ipynb](https://github.com/mayankyadav0717/neuralnetworks/blob/main/makemore5.ipynb): inal refinements in the "makemore" series.- [micrograd.ipynb](https://github.com/mayankyadav0717/neuralnetworks/blob/main/micrograd.ipynb): mplementation of a minimalistic gradient-based engine.- [Zero_to_hero.pdf](https://github.com/mayankyadav0717/neuralnetworks/blob/main/Zero_to_hero.pdf): y personal handwritten notes from the "Zero to Hero" series.
+---
+
+Feel free to explore these resources to follow along with my learning journey.
+
+--- 
