@@ -1,16 +1,40 @@
-Here's a simple README file for your repository:
-
----
-
 # Neural Networks Learning Journey
 
-This repository contains Jupyter notebooks and personal handwritten notes that I created while learning from [Andrej Karpathy's "Zero to Hero" playlist](https://www.youtube.com/playlist?list=PLpVmAiHaw0HOuHfh0eYSaVbcB6RCsMS9X).
+This repository serves as a comprehensive learning log, documenting my progress as I follow [Andrej Karpathy's "Zero to Hero" playlist](https://www.youtube.com/playlist?list=PLpVmAiHaw0HOuHfh0eYSaVbcB6RCsMS9X). It contains Jupyter notebooks, personal handwritten notes, and practical implementations of fundamental and advanced neural network concepts.
 
 ## Contents
 
-- [gpt-dev.ipynb](https://github.com/mayankyadav0717/neuralnetworks/blob/main/gpt-dev.ipynb): otebook focusing on GPT development.- [gpttokenizer.ipynb](https://github.com/mayankyadav0717/neuralnetworks/blob/main/gpttokenizer.ipynb): xploration of GPT tokenization processes.- [makemore.ipynb](https://github.com/mayankyadav0717/neuralnetworks/blob/main/makemore.ipynb): nitial implementation of the "makemore" project.- [makemore2.ipynb](https://github.com/mayankyadav0717/neuralnetworks/blob/main/makemore2.ipynb): ontinuation and improvements on the "makemore" project.- [makemore3.ipynb](https://github.com/mayankyadav0717/neuralnetworks/blob/main/makemore3.ipynb): urther developments in the "makemore" series.- [makemore4.ipynb](https://github.com/mayankyadav0717/neuralnetworks/blob/main/makemore4.ipynb): dvanced features added to the "makemore" project.- [makemore5.ipynb](https://github.com/mayankyadav0717/neuralnetworks/blob/main/makemore5.ipynb): inal refinements in the "makemore" series.- [micrograd.ipynb](https://github.com/mayankyadav0717/neuralnetworks/blob/main/micrograd.ipynb): mplementation of a minimalistic gradient-based engine.- [Zero_to_hero.pdf](https://github.com/mayankyadav0717/neuralnetworks/blob/main/Zero_to_hero.pdf): y personal handwritten notes from the "Zero to Hero" series.
+### Micrograd: A Minimalistic Autograd Engine
+- **[micrograd.ipynb](https://github.com/mayankyadav0717/neuralnetworks/blob/main/micrograd.ipynb)**: This notebook implements a simple yet powerful automatic differentiation engine from scratch. It mimics the core functionality of PyTorch’s autograd, allowing deep insights into backpropagation and computational graphs.
+  - **Key Concepts**: Backpropagation, computational graphs, autograd implementation.
+  - **Video Reference**: [Building Micrograd](https://www.youtube.com/watch?v=VMj-3S1tku0&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&index=1&ab_channel=AndrejKarpathy)
+
+### Makemore: Character-Level Language Modeling
+- **[makemore.ipynb](https://github.com/mayankyadav0717/neuralnetworks/blob/main/makemore.ipynb)**: Develops a simple bigram character-level language model, setting the foundation for more sophisticated deep learning models.
+  - **Key Concepts**: Bigram modeling, tokenization, `torch.Tensor` operations, loss functions, sampling techniques.
+  - **Video Reference**: [Bigram Model](https://www.youtube.com/watch?v=PaCmpygFfXo&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&index=2&ab_channel=AndrejKarpathy)
+
+- **[makemore2.ipynb](https://github.com/mayankyadav0717/neuralnetworks/blob/main/makemore2.ipynb)**: Expands the model by implementing a multi-layer perceptron (MLP)-based character-level language model.
+  - **Key Concepts**: Model training workflow, hyperparameter tuning, train/dev/test splits, handling underfitting and overfitting.
+  - **Video Reference**: [MLP Model](https://www.youtube.com/watch?v=TCH_1BHY58I&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&index=3&ab_channel=AndrejKarpathy)
+
+- **[makemore3.ipynb](https://github.com/mayankyadav0717/neuralnetworks/blob/main/makemore3.ipynb)**: Examines the inner workings of multilayer perceptrons and explores essential diagnostic techniques.
+  - **Key Concepts**: Activation statistics, weight initialization, batch normalization, gradient flow analysis.
+  - **Video Reference**: [Understanding MLP Internals](https://www.youtube.com/watch?v=P6sfmUTpUmc&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&index=4&ab_channel=AndrejKarpathy)
+
+### GPT: Building Transformer-based Models
+- **[gpt-dev.ipynb](https://github.com/mayankyadav0717/neuralnetworks/blob/main/gpt-dev.ipynb)**: Implements a Generatively Pretrained Transformer (GPT) following key principles outlined in "Attention is All You Need."
+  - **Key Concepts**: Transformer architecture, attention mechanisms, positional encodings, self-attention layers.
+  - **Video Reference**: [GPT Model](https://www.youtube.com/watch?v=kCc8FmEb1nY&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&index=7&ab_channel=AndrejKarpathy)
+
+- **[gpttokenizer.ipynb](https://github.com/mayankyadav0717/neuralnetworks/blob/main/gpttokenizer.ipynb)**: Implements a Byte Pair Encoding (BPE) tokenizer used in large language models.
+  - **Key Concepts**: Tokenization, vocabulary construction, encoding and decoding, handling text chunks efficiently.
+  - **Video Reference**: [Understanding Tokenization](https://www.youtube.com/watch?v=zduSFxRajkE&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&index=9&ab_channel=AndrejKarpathy)
+
+### Notes & Additional Resources
+- **[Zero_to_hero.pdf](https://github.com/mayankyadav0717/neuralnetworks/blob/main/Zero_to_hero.pdf)**: A collection of handwritten notes summarizing key takeaways from the "Zero to Hero" series, including equations, intuitions, and insights into deep learning.
+
 ---
 
-Feel free to explore these resources to follow along with my learning journey.
+This repository is a structured learning journey, aiming to provide a strong foundation in neural networks while implementing real-world deep learning architectures. Feel free to explore the notebooks and experiment with different models!
 
---- 
